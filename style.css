@@ -1,0 +1,53 @@
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.main{
+    display: flex;
+    background-color: rgb(143, 225, 198);
+    width: 100%;
+}
+.nav ul{
+    font-size: 22px;
+    display: flex;
+    list-style: none;
+    margin-left: 760px;
+
+    
+}
+
+.nav ul li{
+    margin-left: 20px;
+}
+.nav ul li:hover{
+    color: red;
+}
+.main1 {
+    display: flex;
+    background-color: bisque;
+}
+.photo img{
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    margin-right: 50px;
+  
+}
+.content{
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 10px; 
+}
+.button{
+font-size: 35px;
+}
+@media only screen and (max-width: 600px) {
+    .main {
+      background-color: rgb(32, 92, 112);
+    }
+    .nav ul{
+        margin-left: 20px;
+    }
+  }
